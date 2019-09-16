@@ -69,7 +69,7 @@ public class MasterListAdapter extends BaseAdapter {
             // If the view is not recycled, this creates a new ImageView to hold an image
             imageView = new ImageView(mContext);
             // Define the layout parameters
-            imageView.setAdjustViewBounds(true);
+           /// imageView.setAdjustViewBounds(true);
             imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
             imageView.setPadding(8, 8, 8, 8);
         } else {
